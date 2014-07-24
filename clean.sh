@@ -1,4 +1,4 @@
 #!/bin/sh
 
-rm -r -f target
+rm -rf target   
 
