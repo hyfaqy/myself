@@ -28,13 +28,12 @@
     <display-name>Servlet and JSP Examples</display-name>
 
     <servlet>
-        <servlet-name>test</servlet-name>
+        <servlet-name>contactServlet</servlet-name>
         <servlet-class>com.baldurtech.ContactServlet</servlet-class>
     </servlet>
     
     <servlet-mapping>
-        <servlet-name>test</servlet-name>
-        <url-pattern>/practice</url-pattern>
+        <servlet-name>contactServlet</servlet-name>
+        <url-pattern>/contactlist</url-pattern>
     </servlet-mapping>
-
 </web-app>
